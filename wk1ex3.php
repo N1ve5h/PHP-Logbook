@@ -1,5 +1,5 @@
 <html>
 <body>
-<?php echo 'Blimmy it worked!';?>
+<?php echo "Blimmy it worked!";?>
 </body>
 </html>
