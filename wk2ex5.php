@@ -5,6 +5,6 @@
       }
       else
       {
-        echo "Why are you not using Internet Exploror? <br/>";
+        echo "Why are you not using Internet Explorer? <br/>";
       }
 ?>
