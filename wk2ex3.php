@@ -5,3 +5,4 @@
       echo "To achieve a merit you need " .$grade."% or more. <br/>";
       $grade = PASS_GRADE + 30;
       echo "To achieve a distinction ypu need " .$grade."% or more. </br>";
+?>
