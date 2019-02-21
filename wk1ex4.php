@@ -1,5 +1,5 @@
 <html>
 <body>
-<?php echo gmdate("d m Y"); ?>
+<?php echo gmdate("z"); ?>
 </body>
 </html>
