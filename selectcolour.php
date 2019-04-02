@@ -1,3 +1,7 @@
+<?php
+   $cookie_name = "quantity";
+   setcookie($cookie_name,$_POST[selqty]);
+?>
 <html>
  <head>
    <title>Select Colour Page</title>
