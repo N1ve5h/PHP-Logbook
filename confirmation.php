@@ -6,7 +6,7 @@
 
   echo "<h2> Your order qty is ". $_SESSION['widgetquantity']."</h2></br>";
   echo "<h2> your widget size is ". $size ."</h2></br>";
-  echo "<h2> the price of ". $size. "is ";
+  echo "<h2> the price of ". $size. " is ";
 
   switch ($size)
   {
