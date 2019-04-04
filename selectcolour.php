@@ -1,6 +1,8 @@
 <?php
   session_start();
   $_SESSION['widgetquantity'] = $_POST['selqty'];
+  $_SESSION['widgetprice'] = $_POST['txtprice'];
+  $_SESSION['totalprice'] = $_SESSION['widgetprice'] * $_SESSION['widgetquantity'];
 ?>
 <html>
  <head>
