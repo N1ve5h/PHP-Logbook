@@ -1,3 +1,7 @@
+<?php
+  session_start();
+  $_SESSION['widgetquantity'] = $_POST['selqty'];
+?>
 <html>
  <head>
    <title>Select Colour Page</title>
@@ -13,7 +17,6 @@
        <option>blue</option>
      </select>
      <br/><br/>
-     <input type = "hidden" name = "hdquant" value= "<?php echo $_POST['selqty'] ?>" />
      <input type = "submit" value = "Buy"/>
    </form>
  </body>
