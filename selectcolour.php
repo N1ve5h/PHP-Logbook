@@ -1,8 +1,6 @@
 <?php
   session_start();
-  $_SESSION['widgetquantity'] = $_POST['selqty'];
-  $_SESSION['widgetprice'] = $_POST['txtprice'];
-  $_SESSION['totalprice'] = $_SESSION['widgetprice'] * $_SESSION['widgetquantity'];
+  $_SESSION['widgetsize'] = $_POST['selsize'];
 ?>
 <html>
  <head>
@@ -10,7 +8,7 @@
  </head>
  <body>
    <form action = "confirmation.php" method = "post">
-     Select the colour for the <?php echo $_POST['selqty'] ?> widgets you are ordering
+     Select the colour for the <?php echo $_SESSION['widgetquantity'] ?> widgets you are ordering
      <select name = "selcolour">
        <option>white</option>
        <option>red</option>
