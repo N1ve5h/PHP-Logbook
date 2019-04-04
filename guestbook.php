@@ -18,11 +18,11 @@
   </form>
 
   <?php
-    if (isset($_POST[note]))
+    if (isset($_POST['note']))
     {
       //Subsitute your login in place in "yourLogin"
       $fp = fopen( "yourLogin.txt", "a");
-      fputs( $fp,nl2br($_POST[note])."<br>");
+      fputs( $fp,nl2br($_POST['note'])."<br>");
       fclose($fp);
     }
   ?>
