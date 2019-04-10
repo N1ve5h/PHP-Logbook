@@ -8,7 +8,7 @@
 ?>
 <html>
 <body>
-  <form action="" method = "post">
+  <form action="wk6ex3action.php" method = "get">
     Name:
     <input type=text name = txtname value = "<?php echo $_GET['id'] ?>" readonly />
     </br>
