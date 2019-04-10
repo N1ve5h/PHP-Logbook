@@ -19,5 +19,7 @@
     <input type = text name = txtemail value = "<?php echo $_GET['email']?>"/>
     </br>
     <input type=submit name=btnsubmit value="save"/>
+    </br>
+    <input type=submit name=btnsubmit value="delete"/>
   </form>
 </body>
